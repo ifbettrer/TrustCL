@@ -18,3 +18,7 @@ conda env create -f environment.yaml
 ├── models.py                  
 └── loss_function.py                   
 ```
+# 3. Train and predict
+```markdown
+python main.py
+```
