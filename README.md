@@ -8,11 +8,11 @@ Input the following code to create the virtual environment TrustCL. <br>
 # 2. Project Directory
 ```markdown
 .
-├── data  <br>      
-│   └── dcdb.csv  <br>
-├── environment.yaml <br>
-├── data.py        <br>          
-├── main.py         <br>                           
-├── models.py       <br>           
-└── loss_function.py      <br>             
+├── data       
+│   └── dcdb.csv  
+├── environment.yaml 
+├── data.py                  
+├── main.py                                    
+├── models.py                  
+└── loss_function.py                   
 ```
