@@ -6,7 +6,7 @@ Input the following code to create the virtual environment TrustCL. <br>
 `conda env create -f environment.yaml`
 
 # 2. Project Directory
--
+```markdown
 .
 ├── data  <br>      
 │   └── dcdb.csv  <br>
@@ -15,4 +15,4 @@ Input the following code to create the virtual environment TrustCL. <br>
 ├── main.py         <br>                           
 ├── models.py       <br>           
 └── loss_function.py      <br>             
-`
+```
