@@ -80,7 +80,6 @@ class MultiViewDataset(Dataset):
         norm_x = scaler.fit_transform(x)
         return norm_x
 
-    # 对数据进行后处理，包括添加噪声和冲突
     def postprocessing(self, index, addNoise=False, sigma=0, ratio_noise=0.5, addConflict=False,
                        ratio_conflicts=[0,0,0,0,0,0,0],view=None):
         if addNoise:
@@ -107,3 +106,4 @@ class MultiViewDataset(Dataset):
             self.Y[view][i] = np.random.randint(self.num_classes)
 
         pass
+
