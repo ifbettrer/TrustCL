@@ -22,3 +22,5 @@ conda env create -f environment.yml
 ```markdown
 python main.py
 ```
+# Dataset
+BCDB-2K is a real-world multi-disciplinary consultation dataset, recording the physical indicators of patients with breast cancer and 2000 instances of doctors’ decision data.
