@@ -13,9 +13,9 @@ def seperate_XY(XY, num):
     return data_X, data_Y
 
 def CT(before = False):
-    org = pd.read_csv('data/dcdb.csv', encoding="utf-8")
-    Y_list = ['chemotherapy_id_user_27', 'chemotherapy_id_user_28', 'chemotherapy_id_user_29',
-              'chemotherapy_id_user_30', 'chemotherapy_id_user_31', 'chemotherapy_id_user_34']
+    org = pd.read_csv('data/BCDB-2K.csv', encoding="utf-8")
+    Y_list = ['Attribute_1', 'Attribute_2', 'Attribute_3',
+              'Attribute_4', 'Attribute_5', 'Attribute_6']
     usr = len(Y_list) + 1
     data_X, data_Y = seperate_XY(org, usr)
 
