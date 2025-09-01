@@ -23,4 +23,4 @@ conda env create -f environment.yml
 python main.py
 ```
 # Dataset
-BCDB-2K is a real-world multi-disciplinary consultation dataset, recording the physical indicators of patients with breast cancer and 2000 instances of doctors’ decision data.
+BCDB-2K is a real-world multi-disciplinary consultation dataset, recording the physical indicators of patients with breast cancer and 2000 instances of doctors’ decision data. We performed data de-identification on this dataset to ensure that patient privacy is not compromised. There are 6 views in total, with View_1 to View_6 representing the decisions of six different views (i.e., doctors), respectively, and Final_view being the final decision. Attribute_0 to Attribute_45 are the attribute values of these patients.
