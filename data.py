@@ -14,8 +14,8 @@ def seperate_XY(XY, num):
 
 def CT(before = False):
     org = pd.read_csv('data/BCDB-2K.csv', encoding="utf-8")
-    Y_list = ['Attribute_1', 'Attribute_2', 'Attribute_3',
-              'Attribute_4', 'Attribute_5', 'Attribute_6']
+    Y_list = ['View_1', 'View_2', 'View_3',
+              'View_4', 'View_5', 'View_6'] 
     usr = len(Y_list) + 1
     data_X, data_Y = seperate_XY(org, usr)
 
